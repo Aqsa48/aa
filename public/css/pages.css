@@ -1,0 +1,592 @@
+
+
+
+
+/* .................................................Profile Page................................................... */
+
+
+.Pwrapper{
+   border-bottom: 1px solid blue;
+   height: 1880px;
+}
+
+
+#Pheader{
+   border-bottom: 1px solid;
+   height: 70px;
+   /* position: fixed; */
+   /* background: linear-gradient(to top, blue 70%,green 60%); */
+}
+
+
+#Psection1{
+   border-bottom: 2px solid;
+   height: 400px;
+   padding: 0;
+   /* position: absolute; */
+}
+#PcoverPhoto{
+   padding: 0;
+   margin: 0;
+   position: absolute;
+   height: 399px;
+}
+
+#PdpDiv{
+   border: 0px solid;
+   height: 135px;
+   position: absolute;
+   padding: 0;
+   margin-top: 5%;
+}
+#PdpDiv1{
+   border: 0px solid;
+   height: 100%;
+   border-radius: 135px;
+   padding: 0;
+}
+
+#PdisplayPhoto{
+   height: 100%;
+   width: 100%;
+   border-radius: 135px;   
+   padding: 0;
+   /* border-radius: 100px; */
+}
+
+
+#Pname{
+   text-align: center;
+   /* position: relat; */
+   margin-top: 16%;
+}
+#Ptitle{
+   text-align: center;
+   /* position: relat; */
+   margin-top: -1%;
+   font-size: 20px;
+}
+
+#PfollowersDiv{
+   border: 0px solid;
+   height: 70px;
+   margin-left: 37.5%;
+}
+
+#PfollowingDiv{
+   border: 0px solid;
+   height: 70px;
+}
+#PcommentsDiv{
+   border: 0px solid;
+   height: 70px;
+}
+
+#PfollowersDiv p,#PfollowingDiv p,#PcommentsDiv p{
+   text-align: center;
+   font-size: 16px;
+   font-weight: bold;
+}
+
+
+
+#Psection2{
+   border: 0px solid;
+   height: 300px;
+}
+
+#PaboutMeDiv{
+   border: 0px solid;
+   height: 300px;
+}
+#PaboutMeDiv h1{
+   text-align: center;
+   font-size: 30px;
+   margin-top: 7%;
+}
+#PaboutMeDiv p{
+   text-align: center;
+   font-size: 18px;
+   margin-top: 5%;
+}
+
+
+
+
+
+#Psection3{
+   border-bottom: 0px solid;
+   height: 700px;
+}
+#PportfolioDiv{
+   border: 0px solid;
+   height: 650px;
+}
+#PportfolioDiv h1{
+   text-align: center;
+   font-size: 30px;
+   margin-top: 7%;
+}
+
+#PportBtnsDiv{
+   border: 0px solid;
+   height: 90px;
+}
+
+#PportCatsDiv{
+   border: 0px solid;
+   height: 450px;
+}
+#PpCatHeading{
+   text-align: center;
+   font-size: 22px;
+   text-decoration: underline;
+   margin-top: 2%;
+}
+
+#PcatMainDiv{
+   border: 0px solid;
+   height: 380px;
+   overflow-y: scroll;
+}
+
+
+
+#Psection4{
+   border-bottom: 1px solid;
+   height: 400px;
+   background-color: rgb(232, 232, 232);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .................................................Edit Profile Page................................................... */
+
+
+
+.EPwrapper{
+   border-bottom: 1px solid red;
+   height: 3800px;
+   padding: 0;
+}
+
+#EPheader{
+   border: 1px solid;
+   height: 70px;
+}
+
+
+#EPmainDiv{
+   border-bottom: 1px solid blue;
+   height: 3600px;
+   margin-left: 15%;
+}
+
+
+#EPsection1{
+   border: 1px solid;
+   height: 470px;
+   margin-top: 5%; 
+   padding: 0; 
+}
+
+
+#EPcoverDiv{
+   border-bottom: 1px solid;
+   height: 180px;
+   /* position: relative; */
+   overflow: hidden;
+   
+}
+#EPcoverEdit{
+   margin-left: 120px;
+   /* z-index: 10; */
+   /* float: right; */
+   position: absolute;
+}
+#EPcoverImg{
+   /* z-index: -10; */
+   position: absolute;
+}
+
+
+
+
+
+
+
+#EPdpDiv{
+   border: 1px solid;
+   border-radius: 135px; 
+   height: 135px;
+   margin-top: -12%;
+   margin-left: 41%;
+   padding: 0;
+}
+#EPdpEdit{
+   /* z-index: 10; */
+   /* float: right; */
+   position: absolute;
+}
+#EPdpImg{
+   /* z-index: -10; */
+   position: absolute;
+   border-radius: 135px; 
+   margin-left: 0px;   
+}
+
+
+
+#EPname{
+   text-align: center;
+   margin-top: 0%;
+   font-size: 20px;
+   font-weight: bold; 
+}
+
+#EPtitle{
+   text-align: center;
+   margin-top: -1%;
+   font-size: 16px; 
+}
+#EPbio{
+   text-align: center;
+   margin-top: 1%;
+   font-size: 16px; 
+}
+
+
+#EPedBasicBtn{
+   height: 30px;
+   /* position: absolute; */
+}
+
+
+#EPsaveBar{
+   border: 1px solid;
+   height: 60px;
+   width: 100%;
+   position: fixed;
+   margin-top: 36%;
+   padding: 0;
+   margin-left: -15px;
+   background-color: aqua;
+}
+#EPsaveBar button{
+   float: right;
+
+}
+
+
+
+
+
+#EPsection2{
+   border: 1px solid;
+   height: 470px;
+   margin-top: 5%; 
+   padding: 0; 
+}
+
+#EPaddEduBtn{
+   height: 30px;
+   /* position: absolute; */
+}
+
+#EPeduDivsContainer{
+   border: 1px solid;
+   height: 300px;
+   overflow:scroll;
+}
+
+
+
+
+#EPsection3{
+   border: 1px solid;
+   height: 470px;
+   margin-top: 5%; 
+   padding: 0; 
+}
+#EPaddExpBtn{
+   height: 30px;
+}
+
+#EPexpDivsContainer{
+   border: 1px solid;
+   height: 300px;
+   overflow:scroll;
+   
+}
+
+
+
+
+
+#EPsection4{
+   border: 1px solid;
+   height: 470px;
+   margin-top: 5%; 
+   padding: 0; 
+}
+#EPaddAchBtn{
+   height: 30px;
+}
+
+#EPachDivsContainer{
+   border: 1px solid;
+   height: 300px;
+   overflow:scroll;
+   
+}
+
+
+
+
+
+#EPsection5{
+   border: 1px solid;
+   height: 470px;
+   margin-top: 5%; 
+   padding: 0; 
+}
+#EPaddSkBtn{
+   height: 30px;
+   float: right;
+}
+
+#EPskDivsContainer{
+   border: 1px solid;
+   height: 300px;
+}
+
+
+
+
+
+#EPsection6{
+   border: 1px solid;
+   height: 470px;
+   margin-top: 5%; 
+   padding: 0; 
+}
+#EPaddIntBtn{
+   height: 30px;
+   float: right;
+}
+
+#EPintDivsContainer{
+   border: 1px solid;
+   height: 300px;
+}
+
+
+
+
+#EPsection7{
+   border: 1px solid;
+   height: 470px;
+   margin-top: 5%; 
+   padding: 0; 
+}
+
+#EPaddServBtn{
+   height: 30px;
+   /* position: absolute; */
+}
+
+#EPservDivsContainer{
+   border: 1px solid;
+   height: 300px;
+   overflow:scroll;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ...............................................User Profile Page................................................... */
+
+
+.UPwrapper{
+   border-bottom: 1px solid blue;
+   height: 1880px;
+}
+
+
+#UPheader{
+   border-bottom: 1px solid;
+   height: 70px;
+   /* position: fixed; */
+   /* background: linear-gradient(to top, blue 70%,green 60%); */
+}
+
+
+#UPsection1{
+   border-bottom: 2px solid;
+   height: 400px;
+   padding: 0;
+   /* position: absolute; */
+}
+#UPcoverPhoto{
+   padding: 0;
+   margin: 0;
+   position: absolute;
+   height: 399px;
+}
+
+#UPdpDiv{
+   border: 0px solid;
+   height: 135px;
+   position: absolute;
+   padding: 0;
+   margin-top: 5%;
+}
+#UPdpDiv1{
+   border: 0px solid;
+   height: 100%;
+   border-radius: 135px;
+   padding: 0;
+}
+
+#UPdisplayPhoto{
+   height: 100%;
+   width: 100%;
+   border-radius: 135px;   
+   padding: 0;
+   /* border-radius: 100px; */
+}
+
+
+#UPname{
+   text-align: center;
+   /* position: relat; */
+   margin-top: 16%;
+}
+#UPtitle{
+   text-align: center;
+   /* position: relat; */
+   margin-top: -1%;
+   font-size: 20px;
+}
+
+#UPfollowersDiv{
+   border: 0px solid;
+   height: 70px;
+   margin-left: 37.5%;
+}
+
+#UPfollowingDiv{
+   border: 0px solid;
+   height: 70px;
+}
+#UPcommentsDiv{
+   border: 0px solid;
+   height: 70px;
+}
+
+#UPfollowersDiv p,#UPfollowingDiv p,#UPcommentsDiv p{
+   text-align: center;
+   font-size: 16px;
+   font-weight: bold;
+}
+
+
+
+#UPsection2{
+   border: 0px solid;
+   height: 20px;
+}
+
+#UPfollowBtn,#UPmsgBtn{
+   margin-top: -17px;
+   border-radius: 5px;
+   /* height: 20px; */
+}
+
+
+
+#UPsection3{
+   border: 0px solid;
+   height: 300px;
+}
+
+#UPaboutMeDiv{
+   border: 0px solid;
+   height: 300px;
+}
+#UPaboutMeDiv h1{
+   text-align: center;
+   font-size: 30px;
+   margin-top: 7%;
+}
+#UPaboutMeDiv p{
+   text-align: center;
+   font-size: 18px;
+   margin-top: 5%;
+}
+
+
+
+
+
+#UPsection4{
+   border-bottom: 0px solid;
+   height: 700px;
+}
+#UPportfolioDiv{
+   border: 0px solid;
+   height: 650px;
+}
+#UPportfolioDiv h1{
+   text-align: center;
+   font-size: 30px;
+   margin-top: 7%;
+}
+
+#UPportBtnsDiv{
+   border: 0px solid;
+   height: 90px;
+}
+
+#UPportCatsDiv{
+   border: 0px solid;
+   height: 450px;
+}
+#UPpCatHeading{
+   text-align: center;
+   font-size: 22px;
+   text-decoration: underline;
+   margin-top: 2%;
+}
+
+#UPcatMainDiv{
+   border: 0px solid;
+   height: 380px;
+   overflow-y: auto;
+}
+
+
+
+#UPsection5{
+   border-bottom: 1px solid;
+   height: 400px;
+   background-color: rgb(232, 232, 232);
+}
